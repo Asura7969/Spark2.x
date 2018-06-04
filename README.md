@@ -28,12 +28,12 @@ __暂时只涉及到以下简单API操作:__
 
 ## DataSet  
 >DataSet是“懒加载”的,即只有在action算子被触发时才进行计算  
-#####DataSet创建方式:  
+### DataSet创建方式:  
     
     val people = spark.read.parquet("...").as[Person]  //scala
     Dataset<Person> people = spark.read.parquet("...").as(Encoders.bean(Person.class))  //java  
 
-#####Example:
+### Example:
 ***___scala版___***
 
     //使用sparkSession创建DataSet[Row]
