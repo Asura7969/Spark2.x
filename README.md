@@ -6,6 +6,7 @@ __暂时只涉及到以下简单API操作:__
 * [RDD](https://github.com/Asura7969/Spark2.x/blob/master/src/main/scala/com/gwz/spark/spark1_1/FilmAnalysisRDD.scala)  
 * [DataFrame](https://github.com/Asura7969/Spark2.x/blob/master/src/main/scala/com/gwz/spark/spark1_1/FilmAnalysisDataFrame.scala)  
 * [DataSet](https://github.com/Asura7969/Spark2.x/blob/master/src/main/scala/com/gwz/spark/spark1_1/FilmAnalysisDataSet.scala)  
+* [Structured Streaming](https://github.com/Asura7969/Spark2.x/blob/master/src/main/scala/com/gwz/spark/spark2_3/StreamStructured.scala)  
 * [累加器](https://github.com/Asura7969/Spark2.x/blob/master/src/main/scala/com/gwz/spark/spark2_2/MyAccumulator.scala)  
 * [二次排序](https://github.com/Asura7969/Spark2.x/blob/master/src/main/scala/com/gwz/spark/spark1_1/SecondarySortKey.scala)
 
